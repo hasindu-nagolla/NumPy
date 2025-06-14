@@ -29,3 +29,10 @@ in generally, we are learning lists as array in Python. But technically, Python 
 
 - using a python list = myList = [5]
 - using a NumPy array = myArray = np.array([5], dtype = np.int32)
+
+01. Memory & Storage
+
+In NumPy, NumPy knows the type of every number (e.g., int32 = 32-bit number). So it stores numbers directly in binary like this:
+```
+00000000 00000000 00000000 00000101  ← just 32 bits for number 5
+```
