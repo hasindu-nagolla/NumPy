@@ -27,5 +27,5 @@ in generally, we are learning lists as array in Python. But technically, Python 
 
 ### Lets think, we need to store number 5 in two ways,
 
-using a python list = myList = [5]
-using a NumPy array = myArray = np.array([5], dtype = np.int32)
+- using a python list = myList = [5]
+- using a NumPy array = myArray = np.array([5], dtype = np.int32)
