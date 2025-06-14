@@ -36,3 +36,14 @@ In NumPy, NumPy knows the type of every number (e.g., int32 = 32-bit number). So
 ```
 00000000 00000000 00000000 00000101  ← just 32 bits for number 5
 ```
+It is very compact and fast.
+
+In Python lists, Python doesn't just store. it also stores,
+- The value
+- The type
+- Some extra information like memory address
+
+so instead of 32 bits, it takes much more space like,
+```
+00000001 00111101 11111110 ...  ← lots of extra binary data
+```
