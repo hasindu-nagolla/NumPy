@@ -60,7 +60,7 @@ r1 = np.repeat(arrayRepeat, 3, axis=0)  # repeat each element 3 times
 print(r1)
 
 
-# Matrix embedding 
+# Matrix embedding
 output = np.ones((5, 5))
 print(output)
 
@@ -70,3 +70,10 @@ print(output2)
 
 output[1:4, 1:4] = output2
 print(output)
+
+# Copying arrays
+a = np.array([1, 2, 3])
+b = a  # Direct copy, both variables point to the same array
+print(b)
+b[0] = 99  # Modifying b will also modify a
+print("now a is => ", a, "and b is => ", b)
